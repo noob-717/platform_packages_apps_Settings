@@ -130,6 +130,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
+import com.noob.settings.NoobSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -236,6 +237,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.DataUsageSummaryActivity.class.getName(),
             Settings.SimSettingsActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
+            //custom_section
+            NoobSettings.class.getName(),
             //device_section
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
@@ -353,6 +356,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
+            NoobSettings.class.getName(),
     };
 
 
